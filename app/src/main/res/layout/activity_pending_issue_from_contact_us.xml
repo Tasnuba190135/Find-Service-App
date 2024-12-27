@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="admin_section.PendingIssueFromContactUs">
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="142dp"-->
+            <!--                android:gravity="center"-->
+            <!--                android:orientation="vertical">-->
+
+            <!--                <ImageView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="150dp"-->
+            <!--                    android:gravity="center"-->
+            <!--                    android:src="@drawable/contactus1" />-->
+            <!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+<!--                &lt;!&ndash;                Card started&ndash;&gt;-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center|top"-->
+<!--                        android:layout_marginLeft="5dp"-->
+<!--                        android:text="Issue type"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="20dp" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/CUIssueType"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center|top"-->
+<!--                        android:layout_marginLeft="5dp"-->
+<!--                        android:text="Suggestion"-->
+<!--                        android:textColor="#6E6161"-->
+<!--                        android:textSize="20dp" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/CUEmail"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center|top"-->
+<!--                        android:layout_marginLeft="5dp"-->
+<!--                        android:text="gmail"-->
+<!--                        android:textColor="#6E6161"-->
+<!--                        android:textSize="20dp" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/CUContactNo"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center|top"-->
+<!--                        android:layout_marginLeft="5dp"-->
+<!--                        android:text="0"-->
+<!--                        android:textColor="#6E6161"-->
+<!--                        android:textSize="20dp" />-->
+<!--                </LinearLayout>-->
+
+<!--                <Space-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="20dp" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="220dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/CUMessage"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center|top"-->
+<!--                        android:layout_marginLeft="5dp"-->
+<!--                        android:text="Make app more optimize.kwsjbc jkwefb wenbjkwed wjeknekwnfkefn"-->
+<!--                        android:textColor="#6E6161"-->
+<!--                        android:textSize="20dp" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="5dp"-->
+<!--                        android:text="Feedback (by admin)"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="20dp" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="143dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <EditText-->
+<!--                        android:id="@+id/CUAdminFeedback"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:background="#5676"-->
+<!--                        android:hint="Brief shortly..."-->
+<!--                        android:maxLength="150" />-->
+<!--                </LinearLayout>-->
+
+<!--                <Space-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="10dp" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/BtnCUQueue"-->
+<!--                        android:layout_width="118dp"-->
+<!--                        android:layout_height="71dp"-->
+<!--                        android:layout_marginHorizontal="75dp"-->
+<!--                        android:backgroundTint="@color/dark_red_1"-->
+<!--                        android:text="Remain in queue"-->
+<!--                        android:textColor="#F5FBF6"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/BtnCUFeedback"-->
+<!--                        android:layout_width="114dp"-->
+<!--                        android:layout_height="71dp"-->
+<!--                        android:layout_marginHorizontal="75dp"-->
+<!--                        android:backgroundTint="#060E08"-->
+<!--                        android:text="Give feedback"-->
+<!--                        android:textColor="#F5FBF6"-->
+<!--                        android:textStyle="bold" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/BtnCUAdminHome"-->
+<!--                        android:layout_width="118dp"-->
+<!--                        android:layout_height="71dp"-->
+<!--                        android:layout_marginHorizontal="75dp"-->
+<!--                        android:backgroundTint="@color/grey"-->
+<!--                        android:text="Remain in queue"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textStyle="bold" />-->
+<!--                </LinearLayout>-->
+
+<!--                <View-->
+<!--                    android:layout_width="400dp"-->
+<!--                    android:layout_height="1dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_marginBottom="10dp"-->
+<!--                    android:background="#ACA1A1" />-->
+
+<!--                &lt;!&ndash;                Card Ended&ndash;&gt;-->
+
+
+
+
+<!--            </LinearLayout>-->
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
